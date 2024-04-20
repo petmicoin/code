@@ -1,5 +1,17 @@
-// SPDX-License-Identifier: MIT
-/**
+// SPDX-License-Identifier: UNLICENSED
+
+/**                
+8 888888888o   8 8888888888 8888888 8888888888   ,8.       ,8.           8 8888 
+8 8888    `88. 8 8888             8 8888        ,888.     ,888.          8 8888 
+8 8888     `88 8 8888             8 8888       .`8888.   .`8888.         8 8888 
+8 8888     ,88 8 8888             8 8888      ,8.`8888. ,8.`8888.        8 8888 
+8 8888.   ,88' 8 888888888888     8 8888     ,8'8.`8888,8^8.`8888.       8 8888 
+8 888888888P'  8 8888             8 8888    ,8' `8.`8888' `8.`8888.      8 8888 
+8 8888         8 8888             8 8888   ,8'   `8.`88'   `8.`8888.     8 8888 
+8 8888         8 8888             8 8888  ,8'     `8.`'     `8.`8888.    8 8888 
+8 8888         8 8888             8 8888 ,8'       `8        `8.`8888.   8 8888 
+8 8888         8 888888888888     8 8888,8'         `         `8.`8888.  8 8888
+ *
  *
  * @title Petmi
  * @author Pet Middleton, Princess of Tails
@@ -12,7 +24,8 @@
  *  - No ownership function. Nothing to renounce.
  *
  */
-pragma solidity ^0.8.20;
+
+ pragma solidity ^0.8.20;
 
 interface IERC20Errors {
     error ERC20InsufficientBalance(address sender, uint256 balance, uint256 needed);
